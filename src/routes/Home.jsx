@@ -34,7 +34,7 @@ const Home = () => {
           <div className="post" key={post.id}>
             <h2>{post.title}</h2>
             <p>{post.body}</p>
-            <Link to={`/posts/${post.id}`} className="btn">Ler mais</Link>
+            <Link to={`/`} className="btn">Ler mais</Link>
           </div>
         ))
       )}
